@@ -12,7 +12,7 @@ EchoFilter is a privacy-first AI tool that analyzes audio conversations by trans
     <a href="#project-structure">Project Structure</a>
   </li>
 <li>
-    <a href="#project-structure">File Explanations</a>
+    <a href="#project-structure">System Architecture Overview</a>
   </li>
   <li>
     <a href="#getting-started">Installation Steps</a>
@@ -37,7 +37,7 @@ The dataset consists of a single audio recording capturing a natural conversatio
 ```
 <br>
 
-## File Explanations
+## System Architecture Overview
 ### transcribe.py
 The Transcriber module handles audio-to-text conversion using the efficient Faster-Whisper model. It transcribes spoken audio into clean, sentence-level transcripts by applying beam search decoding and natural language sentence tokenization. Segments are joined and split into natural language sentences and it returns the cleaned, sentence-level transcript as a single string.
 
