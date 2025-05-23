@@ -1,17 +1,26 @@
-# transcribe.py
 from faster_whisper import WhisperModel
+import nltk
+from nltk.tokenize import sent_tokenize
+import torch
+
+nltk.download("punkt")
 
 class Transcriber:
     """
-    
-    This class works on converting the input audio into text using the Small Faster-Whisper model. 
-    
+    A transcription utility that uses the Faster-Whisper model to convert spoken audio into 
+    punctuated, sentence-level text transcripts.
+
     Attributes:
-        model (WhisperModel): An instance of the Faster-Whisper model to convert speech to text.
-    
+        model (WhisperModel): A lightweight, efficient speech-to-text model configured for fast inference.
+
     Methods:
-        transcribe_file(self, audio_path: str, output_path: str = None) -> str: performs speech to text translation and saves the initial transcript.
+        speech_to_text(audio_path: str, output_path: str = None) -> str:
+            Transcribes the input audio file to text using beam search for higher accuracy.
+            Segments are joined and split into natural language sentences.
+            Optionally saves the transcript to a file.
+            Returns the cleaned, sentence-level transcript as a single string.
     """
+
     def __init__(self):
         model_size = "small"
         self.model = WhisperModel(model_size_or_path=model_size, device="auto", compute_type="int8")
@@ -19,10 +28,10 @@ class Transcriber:
     def speech_to_text(self, audio_path: str, output_path: str = None) -> str:
         segments, _ = self.model.transcribe(audio_path, beam_size=5)
 
-        transcript = ""
-        for part in segments:
-            line = part.text.strip()
-            transcript += line + "\n"
+        full_text = " ".join(" ".join(part.text.strip().split()) for part in segments)
+        sentences = sent_tokenize(full_text)
+
+        transcript = "\n".join(sentence.strip() for sentence in sentences)
 
         if output_path:
             with open(output_path, "w", encoding="utf-8") as f:
@@ -30,3 +39,4 @@ class Transcriber:
             print(f"Initial Transcript saved to {output_path}")
 
         return transcript
+
