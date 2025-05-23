@@ -2,6 +2,8 @@
 
 EchoFilter is a privacy-first AI tool that analyzes audio conversations by transcribing them and evaluating each sentence for semantic and contextual similarity to user-defined sensitive content categories. It flags and classifies detected segments into severity levels such as Safe, Warning, or Critical, and provides confidence scores along with rationale for each classification. The system also generates redacted versions of the transcript to mask the sensitive data.
 
+[![Open App in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://echofilter-ai-powered-personal-audio-firewall-xrvzzd3ozwzc7om9.streamlit.app/)
+
 ## Table of contents
 <ol>
 
