@@ -1,0 +1,7 @@
+streamlit
+streamlit-tags
+transformers
+torch
+faster-whisper
+nltk
+sentence-transformers
