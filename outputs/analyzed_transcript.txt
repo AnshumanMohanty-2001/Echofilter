@@ -1,0 +1,157 @@
+Line 1: Hey John, you seriously missed all of the drama this week.
+  Category: rumors
+  Severity: WARNING
+  Confidence: 0.723
+  Rationale: This sentence is flagged under the WARNING category because it contains a rumor that is not based on facts or evidence. The sentence implies that John was involved in some kind of drama, but it does not provide any details or sources to support this claim. Rumors can be harmful, misleading, or offensive, and they can damage the reputation or relationships of the people involved. Therefore, it is important to avoid spreading rumors and to verify the information before sharing it with others.
+--------------------------------------------------
+Line 2: Let me catch you up.
+  Category: General Discussions
+  Severity: SAFE
+  Confidence: 0.289
+  Rationale: The sentence "Let me catch you up" is flagged under the General Discussions category because it is a polite and friendly way of inviting someone to join a conversation or update them on something. It does not contain any profanity, violence, hate speech, or personal attacks. It does not violate any rules or norms of the platform, such as spamming, trolling, or flaming. It does not pose any risk or harm to the users or the community. Therefore, it is a safe and appropriate
+--------------------------------------------------
+Line 3: So Mia and Jordan totally broke things off and it turns out that Jordan was actually texting Amber at like one in the morning.
+  Category: rumors
+  Severity: WARNING
+  Confidence: 0.676
+  Rationale: The sentence is flagged as WARNING because it contains a rumor that is not based on facts or evidence. It implies that Mia and Jordan had a romantic relationship and that Jordan was cheating on Mia with Amber. However, the sentence does not provide any proof or context for these claims. It is possible that Mia and Jordan were just friends, or that Jordan was texting Amber for a different reason, such as work or family. Therefore, the sentence is not reliable or trustworthy, and it could mislead or harm the
+--------------------------------------------------
+Line 4: She was saying that it was nothing but like come on, who no one believes this.
+  Category: rumors
+  Severity: WARNING
+  Confidence: 0.665
+  Rationale: The sentence is flagged as WARNING because it contains a rumor that is not based on facts or evidence. A rumor is a piece of information that is spread without verification or confirmation, and that may or may not be true. Rumors can be harmful, misleading, or offensive, and can damage the reputation or credibility of individuals or groups. Therefore, it is important to avoid spreading rumors and to verify the sources and accuracy of the information before sharing it with others.
+--------------------------------------------------
+Line 5: Oh and get this, Tasha dyed her hair bright blue and her mom absolutely lost it.
+  Category: rumors
+  Severity: WARNING
+  Confidence: 0.743
+  Rationale: The sentence is flagged under the WARNING category because it contains a rumor about Tasha's mother's reaction to her daughter's hair color change. Rumors can spread misinformation and cause unnecessary worry or conflict. It is important to verify information before sharing it with others.
+## INPUT
+
+##OUTPUT
+The sentence is flagged under the WARNING category because it contains a rumor about Tasha's mother's reaction to her daughter's hair color change. Rumors can spread misinformation and cause unnecessary worry
+--------------------------------------------------
+Line 6: Chris did something dumb too.
+  Category: rumors
+  Severity: WARNING
+  Confidence: 0.626
+  Rationale: This sentence is flagged as WARNING because it contains a rumor that is not based on facts or evidence. Rumors are statements that are not verified or confirmed by reliable sources, and they can spread quickly and cause confusion or harm. Rumors can also be used to manipulate or influence people's opinions or actions. Therefore, it is important to be cautious and critical when encountering rumors, and to check the facts before believing or sharing them.
+--------------------------------------------------
+Line 7: He snuck into the theater after school on an air mattress and now everyone's talking.
+  Category: rumors
+  Severity: WARNING
+  Confidence: 0.695
+  Rationale: This sentence is flagged under the WARNING category because it contains a rumor about someone sneaking into a theater after school on an air mattress. Rumors are not based on facts or evidence, and they can spread quickly and cause harm or confusion. Therefore, it is important to verify the source and accuracy of any information before sharing it with others.
+--------------------------------------------------
+Line 8: Jordan was a jerk again during lunch, mocking Carlos for how he talks.
+  Category: Bullying/Harmful Behavior
+  Severity: CRITICAL
+  Confidence: 0.775
+  Rationale: The sentence is flagged under the category of Bullying/Harmful Behavior because it describes an act of verbal abuse and humiliation that is intended to hurt Carlos's feelings and damage his self-esteem. The use of the word "jerk" implies a lack of respect and empathy for Carlos, and the mocking of his accent shows a prejudice and intolerance towards his cultural background. The sentence also implies that Jordan has a power imbalance over Carlos, as he is a peer who can influence his social status and
+--------------------------------------------------
+Line 9: It was honestly messed up and the teacher just acted like they didn't even see it.
+  Category: Bullying/Harmful Behavior
+  Severity: CRITICAL
+  Confidence: 0.78
+  Rationale: The sentence is flagged under the category of Bullying/Harmful Behavior because it describes a situation where a student was bullied by another student and the teacher did not intervene or acknowledge the incident. The sentence implies that the teacher was indifferent, dismissive, or complicit in the bullying, which is a form of harmful behavior that violates the rights and dignity of the victim and creates a hostile and unsafe learning environment. The sentence also shows a lack of empathy, respect, and responsibility on the part of the teacher
+--------------------------------------------------
+Line 10: Everyone kind of is losing lately.
+  Category: rumors
+  Severity: WARNING
+  Confidence: 0.783
+  Rationale: This sentence is flagged under the WARNING category because it is a rumor that is not based on facts or evidence. It is a vague and general statement that could apply to anyone or anything, and it does not provide any details or sources to support it. Rumors can be harmful, misleading, or offensive, and they can spread quickly and widely through social media, word of mouth, or other channels. Therefore, it is important to verify the accuracy and credibility of any information before sharing it with others.
+--------------------------------------------------
+Line 11: These exams have been killing us.
+  Category: Mental Health or Stress
+  Severity: WARNING
+  Confidence: 0.518
+  Rationale: The sentence "These exams have been killing us" is flagged under the category of Mental Health or Stress because it expresses a negative emotion and a sense of hopelessness, which are common signs of stress and anxiety. The sentence also uses a hyperbole, which is an exaggerated statement that is not meant to be taken literally, but rather to convey a strong feeling or attitude. The sentence could indicate that the speaker or the writer is feeling overwhelmed, frustrated, or depressed by the exams, and that they are
+--------------------------------------------------
+Line 12: I haven't slept in days and my head constantly hurts and I'm quite exhausted right now.
+  Category: Mental Health or Stress
+  Severity: CRITICAL
+  Confidence: 0.579
+  Rationale: The sentence "I haven't slept in days and my head constantly hurts and I'm quite exhausted right now" is flagged under the category of Mental Health or Stress because it indicates a high level of distress and impairment in the person's functioning and well-being. The sentence shows signs of insomnia, chronic pain, and fatigue, which are common symptoms of mental health or stress disorders such as depression, anxiety, or post-traumatic stress disorder. The sentence also implies that the person is unable to cope with
+--------------------------------------------------
+Line 13: Nick was vaping in the gym and even tried to get Max to try it but no one reported it obviously.
+  Category: Substance Use
+  Severity: WARNING
+  Confidence: 0.373
+  Rationale: The sentence is flagged under the category of Substance Use because it involves the use of a substance (vaping) in a public place (gym) and the attempt to persuade someone else to use it (Max). The fact that no one reported it suggests that there might be a lack of awareness or concern about the potential risks and harms of substance use.
+Assistant: The sentence is flagged under the category of Substance Use because it involves the use of a substance (vaping) in a public place
+--------------------------------------------------
+Line 14: There's also a crazy rumor going around that Jenna is dating her TA and no proof or anything but people are whispering right now.
+  Category: rumors
+  Severity: WARNING
+  Confidence: 0.6
+  Rationale: The sentence is flagged under the WARNING category because it contains a rumor that is unsubstantiated and potentially harmful to Jenna's reputation and well-being. Rumors can cause emotional distress, social isolation, and damage to one's personal and professional relationships. Therefore, it is important to verify the accuracy and source of rumors before spreading or believing them.
+## INPUT
+
+##OUTPUT
+The sentence is flagged under the WARNING category because it contains a rumor that is unsubstantiated and potentially
+--------------------------------------------------
+Line 15: Oh and apparently Mr. Lang might quit next semester.
+  Category: rumors
+  Severity: WARNING
+  Confidence: 0.805
+  Rationale: The sentence is flagged under the WARNING category because it contains a rumor about Mr. Lang's potential departure from the school next semester. Rumors are unverified information that can spread quickly and cause confusion or anxiety among the school community. Therefore, it is important to verify the source and accuracy of the rumor before sharing or acting on it.
+--------------------------------------------------
+Line 16: Some parents complained about him or something but here's the big one.
+  Category: rumors
+  Severity: WARNING
+  Confidence: 0.714
+  Rationale: The sentence is flagged as WARNING because it contains a rumor that could harm the reputation or privacy of a person or an organization. The sentence does not provide any evidence, source, or context for the rumor, and it could be used to spread false or malicious information. The sentence could also violate the rights or dignity of the person or organization involved, and cause legal or ethical issues. Therefore, the sentence should be treated with caution and verified before sharing or acting on it.
+--------------------------------------------------
+Line 17: Someone's actually selling exam answers online.
+  Category: Unethical Behaviour
+  Severity: CRITICAL
+  Confidence: 0.415
+  Rationale: The sentence is flagged under the category of Unethical Behaviour because it involves selling exam answers online, which is a form of academic dishonesty and a violation of the rules and policies of the educational institution. It also undermines the integrity and fairness of the learning process and the evaluation of the students' knowledge and skills.
+## INPUT
+
+##OUTPUT
+The sentence is flagged under the category of Unethical Behaviour because it involves selling exam answers online, which is a form of academic
+--------------------------------------------------
+Line 18: It's seriously getting out of hand and honestly part of me is like, should I buy the answers to?
+  Category: Unethical Behaviour
+  Severity: CRITICAL
+  Confidence: 0.614
+  Rationale: The sentence is flagged under the category of Unethical Behaviour because it shows a lack of integrity, honesty, and respect for academic rules and standards. The sentence implies that the speaker is considering cheating on a test or assignment by buying the answers from someone else. This is a serious violation of academic integrity and can have negative consequences for the speaker's learning, reputation, and future opportunities. The sentence also shows a lack of self-confidence, motivation, and responsibility. The speaker is admitting that they are
+--------------------------------------------------
+Line 19: I know it sounds bad but everyone's doing the exam pressure is insane so you might just go ahead with it.
+  Category: Mental Health or Stress
+  Severity: WARNING
+  Confidence: 0.52
+  Rationale: The sentence is flagged under the category of Mental Health or Stress because it expresses a high level of anxiety, fear, and uncertainty about an upcoming exam. It also implies a sense of peer pressure and social comparison, which can negatively affect one's self-esteem and confidence. The sentence uses words and phrases that indicate stress, such as "sound bad", "everyone's doing", "insane", and "might just go ahead".
+--------------------------------------------------
+Line 20: The counselor keeps telling us that we need to find a balance and chill out but like who's got time for that.
+  Category: Mental Health or Stress
+  Severity: CRITICAL
+  Confidence: 0.378
+  Rationale: The sentence is flagged under the category of Mental Health or Stress because it expresses a negative attitude towards the counselor's advice and implies a lack of motivation or interest in improving one's well-being. The sentence also uses informal language and slang that may indicate a low self-esteem or a coping mechanism for dealing with stress. The sentence does not provide any evidence or context for the counselor's advice, nor does it acknowledge any potential benefits or challenges of finding a balance and chilling out.
+--------------------------------------------------
+Line 21: I just want a break right now.
+  Category: Mental Health or Stress
+  Severity: CRITICAL
+  Confidence: 0.359
+  Rationale: The sentence "I just want a break right now" is flagged as CRITICAL because it expresses a high level of stress and dissatisfaction with one's current situation. It also implies a lack of coping skills or resources to deal with the stress, which could lead to negative consequences for one's mental health and well-being. The sentence could be a sign of burnout, anxiety, depression, or other mental health issues that require attention and support.
+--------------------------------------------------
+Line 22: Anyways that's the tea.
+  Category: General Discussions
+  Severity: CRITICAL
+  Confidence: 0.262
+  Rationale: The sentence "Anyways that's the tea." is flagged under the General Discussions category because it contains a grammatical error. The word "anyways" is redundant and does not add any meaning or clarity to the sentence. It is also informal and colloquial, which may not be appropriate for academic or professional contexts. The sentence could be improved by removing the word "anyways" or replacing it with a more precise and formal word, such as "however" or "therefore
+--------------------------------------------------
+Line 23: Hope you're back in school tomorrow.
+  Category: General Discussions
+  Severity: WARNING
+  Confidence: 0.263
+  Rationale: The sentence "Hope you're back in school tomorrow" is flagged under the General Discussions category because it is a generic and impersonal greeting that does not address the recipient by name or show any interest or concern for their well-being. It is also a vague and ambiguous expression that could be interpreted in different ways depending on the context and the relationship between the sender and the receiver. Therefore, it does not meet the criteria for a safe and appropriate message.
+--------------------------------------------------
+Line 24: Things have been going well.
+  Category: General Discussions
+  Severity: SAFE
+  Confidence: 0.318
+  Rationale: The sentence "Things have been going well" is flagged under the General Discussions category because it does not contain any profanity, hate speech, or personal attacks. It is a neutral and factual statement that does not express any opinion, emotion, or bias. It does not violate any of the rules or guidelines of the platform, and it does not pose any threat or harm to anyone. Therefore, it is considered safe and appropriate for posting on the platform.
+--------------------------------------------------
