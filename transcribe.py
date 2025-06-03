@@ -4,6 +4,7 @@ from nltk.tokenize import sent_tokenize
 import torch
 
 nltk.download("punkt")
+nltk.download('punkt_tab')
 
 class Transcriber:
     """
